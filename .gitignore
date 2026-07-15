@@ -1,0 +1,17 @@
+# Виртуальное окружение / кэш Python
+.venv/
+__pycache__/
+*.pyc
+./.claude
+# Сборка PyInstaller
+build/
+dist/
+*.spec
+
+# Локальное состояние пользователя (не источник, создаётся программой)
+gui_settings.json
+debug/
+
+# IDE
+.vscode/
+.idea/
